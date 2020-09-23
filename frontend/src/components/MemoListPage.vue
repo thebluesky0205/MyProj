@@ -50,7 +50,7 @@ export default {
     }),
     pageCount () {
       const listLen = this.lists.length
-      const listSize = 3
+      const listSize = 10
 
       let page = Math.floor(listLen / listSize)
       if (listLen % listSize > 0) {
