@@ -21,9 +21,7 @@ export default {
     state.storageData = data
   },
   [INIT] (state) {
-    state.drama = ''
-    state.movie = ''
-    state.book = ''
+    state.memo = ''
   },
   [MV_PAGE] (state, page) {
     if (page) {
