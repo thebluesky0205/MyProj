@@ -3,7 +3,7 @@
     <v-container>
       <v-table>
         <div>
-          <section class="weather" style="margin-top: auto" >
+          <section class="weather" style="margin-top: 40px" >
             <h2>서울특별시 종로2가</h2>
             <vue-weather
               api-key="45aee2ef715cfa91ed7957e8cfd37a70"
