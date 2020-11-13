@@ -107,8 +107,8 @@ public class MemberController {
             member.setUserPw(passwordEncoder.encode(inputPassword));
 
             member.setJob("Admin");
-            member.setEmail("dldndud627@gmail.com");
-            member.setPhone("01062440346");
+            member.setEmail("theblueskys@gmail.com");
+            member.setPhone("01085630205");
 
             service.setupAdmin(member);
 
